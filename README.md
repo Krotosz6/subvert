@@ -1,5 +1,7 @@
 # Subvert
 
+polska wersja
+
 ![Docker Semver](https://img.shields.io/docker/v/aschmelyun/subvert?style=flat-square)
 ![Docker Pulls](https://img.shields.io/docker/pulls/aschmelyun/subvert?label=pulls&style=flat-square)
 
