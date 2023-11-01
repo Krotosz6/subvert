@@ -51,7 +51,7 @@ class GenerateSummary
             'messages' => [
                 [
                     'role' => 'system',
-                    'content' => 'You are a video editor. You will be given subtitles of a video. You need to summarize the video in a concise manner, as a single paragraph, and no more than 5 sentences. Provide back only the summary text, nothing before and nothing after.'
+                    'content' => 'Jesteś montażystą wideo. Otrzymasz napisy do filmu. Musisz streścić film w zwięzły sposób, w formie jednego akapitu, nie dłuższego niż 5 zdań. Prześlij tylko tekst podsumowania, bez żadnych dodatkowych informacji.'
                 ],
                 [
                     'role' => 'user',
@@ -76,7 +76,7 @@ class GenerateSummary
             'messages' => [
                 [
                     'role' => 'system',
-                    'content' => 'You are a video editor. You will be given a large summary of a video. You need to condense this summary down in a concise manner, as a single paragraph, and no more than 5 sentences. Provide back only the summary text, nothing before and nothing after.'
+                    'content' => 'Jesteś montażystą wideo. Otrzymasz napisy do filmu. Musisz streścić film w zwięzły sposób, w formie jednego akapitu, nie dłuższego niż 5 zdań. Prześlij tylko tekst podsumowania, bez żadnych dodatkowych informacji.'
                 ],
                 [
                     'role' => 'user',
