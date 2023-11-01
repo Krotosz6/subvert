@@ -53,7 +53,7 @@ class GenerateChapters
             'messages' => [
                 [
                     'role' => 'system',
-                    'content' => "You are a video editor. You will be given subtitles of a video. You need to summarize the video as a list of {$chaptersAmount} concise chapters, no more than a short sentence each. Each chapter should be prefixed with a single timestamp relevant to the starting position in the video. Provide back only the list of chapters, nothing before and nothing after."
+                    'content' => "Jesteś montażystą wideo. Otrzymasz napisy do filmu. Musisz podsumować film jako listę {$chaptersAmount} zwięzłych rozdziałów, złożonych z nie więcej niż jednego krótkiego zdania. Każdy rozdział powinien być poprzedzony jednym znacznikiem czasu odnoszącym się do pozycji startowej w filmie. Prześlij tylko listę rozdziałów, niczego przed nimi i niczego po nich."
                 ],
                 [
                     'role' => 'user',
@@ -78,7 +78,7 @@ class GenerateChapters
             'messages' => [
                 [
                     'role' => 'system',
-                    'content' => "You are a video editor. You will be given a list of chapters for a video. You need to reduce this list down to just {$chaptersAmount} chapters, spread out evenly throughout the entire original list. Keep the relevant, singular, timestamp from the beginning of the original chapter. Provide back only the list of chapters, nothing before and nothing after."
+                    'content' => "Jesteś montażystą wideo. Otrzymasz napisy do filmu. Musisz podsumować film jako listę {$chaptersAmount} zwięzłych rozdziałów, złożonych z nie więcej niż jednego krótkiego zdania. Każdy rozdział powinien być poprzedzony jednym znacznikiem czasu odnoszącym się do pozycji startowej w filmie. Prześlij tylko listę rozdziałów, niczego przed nimi i niczego po nich."
                 ],
                 [
                     'role' => 'user',
