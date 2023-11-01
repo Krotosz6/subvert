@@ -2,7 +2,7 @@ version: '3'
 
 services:
   subvert: 
-    image: aschmelyun/subvert:latest
+    image: krotosz/subvert:latest
     restart: always
     environment:
       - OPENAI_API_KEY=sk-<your key here>
