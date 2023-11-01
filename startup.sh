@@ -6,7 +6,7 @@ if [ -z "$OPENAI_API_KEY" ]; then
 fi
 
 if [ -z "$UPLOAD_MAX_FILESIZE" ]; then
-    UPLOAD_MAX_FILESIZE="256M"
+    UPLOAD_MAX_FILESIZE="500M"
 fi
 
 if [ -z "$MEMORY_LIMIT" ]; then
